@@ -1,6 +1,6 @@
 const SUPABASE_URL="https://hxdxwcwdumuwmupxdsov.supabase.co";
 
-const SUPABASE_ANON_KEY="COLLE_TA_CLE_ANON_PUBLIC_ICI";
+const SUPABASE_ANON_KEY="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imh4ZHh3Y3dkdW11d211cHhkc292Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODMwOTQyNDMsImV4cCI6MjA5ODY3MDI0M30.beuNWaXvqSbuUU6JewZFGhSssZAN3flJrRH128qtoxY";
 
 async function loadLeaderboard(){
 
