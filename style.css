@@ -1,125 +1,114 @@
-body{
-
-margin:0;
-
-background:#0d0d0d;
-
-color:white;
-
-font-family:'Cinzel',serif;
-
+body {
+    margin: 0;
+    background: #0d0d0d;
+    color: white;
+    font-family: "Cinzel", serif;
 }
 
-.container{
-
-width:80%;
-
-margin:auto;
-
-margin-top:40px;
-
-text-align:center;
-
+.container {
+    width: 94%;
+    max-width: 1500px;
+    margin: 40px auto;
+    text-align: center;
 }
 
-h1{
-
-color:gold;
-
-font-size:55px;
-
-margin-bottom:5px;
-
+h1 {
+    color: gold;
+    font-size: 55px;
+    margin-bottom: 5px;
 }
 
-h2{
-
-margin-bottom:40px;
-
+h2 {
+    margin-bottom: 40px;
 }
 
-.champion{
-
-background:#1b1b1b;
-
-border:2px solid gold;
-
-border-radius:15px;
-
-padding:25px;
-
-margin-bottom:40px;
-
-box-shadow:0px 0px 20px gold;
-
+.champion {
+    background: #1b1b1b;
+    border: 2px solid gold;
+    border-radius: 15px;
+    padding: 25px;
+    margin-bottom: 40px;
+    box-shadow: 0 0 20px gold;
 }
 
-.crown{
-
-font-size:28px;
-
-margin-bottom:15px;
-
+.crown {
+    font-size: 28px;
+    margin-bottom: 15px;
 }
 
-#championName{
-
-font-size:40px;
-
-color:gold;
-
+#championName {
+    font-size: 40px;
+    color: gold;
 }
 
-#championTime{
-
-font-size:25px;
-
-margin-top:10px;
-
+#championTime {
+    font-size: 25px;
+    margin-top: 10px;
 }
 
-table{
-
-width:100%;
-
-border-collapse:collapse;
-
+table {
+    width: 100%;
+    min-width: 1100px;
+    border-collapse: collapse;
+    background: #151515;
 }
 
-th{
-
-background:gold;
-
-color:black;
-
-padding:15px;
-
-font-size:22px;
-
+th {
+    background: gold;
+    color: black;
+    padding: 14px 10px;
+    font-size: 17px;
+    white-space: nowrap;
 }
 
-td{
-
-padding:15px;
-
-border-bottom:1px solid #444;
-
-font-size:20px;
-
+td {
+    padding: 14px 10px;
+    border-bottom: 1px solid #444;
+    font-size: 16px;
+    white-space: nowrap;
 }
 
-tr:hover{
-
-background:#222;
-
+tbody tr:hover {
+    background: #222;
 }
 
-.footer{
+td:nth-child(2) {
+    color: #ffd966;
+    font-weight: bold;
+}
 
-margin-top:40px;
+td:last-child {
+    color: gold;
+    font-size: 20px;
+    font-weight: bold;
+}
 
-opacity:.6;
+.footer {
+    margin-top: 40px;
+    opacity: 0.6;
+    font-size: 14px;
+}
 
-font-size:14px;
+.container {
+    overflow-x: auto;
+}
 
+@media (max-width: 800px) {
+    h1 {
+        font-size: 36px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .champion {
+        padding: 18px;
+    }
+
+    th,
+    td {
+        font-size: 14px;
+        padding: 10px 8px;
+    }
 }
